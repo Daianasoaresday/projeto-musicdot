@@ -1,16 +1,16 @@
-body{
+body {
     font-family: helvetica, "lucida grande", sans-serif;
     margin: 0 auto;
     width: 940px;
 }
 
-h1{
+.titulo {
     color: #3d3d3d;
     background-color: #e1edf2;
     padding: 10px;
 }
 
-figure{
+figure {
     text-align: center;
     background-color: whitesmoke;
     color: #3d3d3d;
@@ -18,11 +18,25 @@ figure{
     margin: 30px;
 }
 
+.figuraMatriz {
+    width: 550px;
+    margin: 0 auto;
+}
 
-h2{
+.figuraFamilia {
+    width: 275px;
+    float: right;
+}
+
+figure img {
+   height: inherit;
+   width: inherit;
+}
+
+.subtitulo {
     border-bottom: 2px solid black;
 }
 
-figcaption{
+figcaption {
     margin-top: 10px;
 }
